@@ -1,0 +1,4 @@
+declare -x DIB_ARGS="vm debian-minimal latest-docker -o image.qcow2"
+declare -x DIB_PYTHON_EXEC="/home/ailson/dev/image-builder/dib-virtualenv/bin/python"
+declare -x DIB_PYTHON_VERSION="3"
+declare -x DIB_RELEASE="stretch"

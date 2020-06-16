@@ -1,0 +1,14 @@
+# *.d/
+# !*install.d/
+.vscode/
+heat-agents/
+tripleo-image-elements/
+*.qcow2*
+dib-virtualenv/
+
+# Created images directory
+ewg-leader.d/
+ewg-worker.d/
+ewg-ima-agent.d/
+debian-software-config-docker.d/
+k8s-master.d/

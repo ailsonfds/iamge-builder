@@ -1,0 +1,1 @@
+vm debian-minimal latest-docker -o image.qcow2

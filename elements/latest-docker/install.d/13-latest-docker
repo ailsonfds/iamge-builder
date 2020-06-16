@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if type apt
+then
+    apt install -qqy curl
+elif type yum
+then
+    yum install -qqy curl
+elif type apk
+then
+    apk add curl
+fi
+
+curl https://get.docker.com | sh
